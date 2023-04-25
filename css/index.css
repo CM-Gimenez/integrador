@@ -1,0 +1,77 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-item {
+  font-size: 14px;
+}
+.verde {
+  color: green;
+}
+.bg-img {
+  background-image: url("../assets/img/ba1.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: #fff;
+  padding: 120px 40px;
+  text-align: right;
+  opacity: 0.9;
+}
+.rgba{
+    background-color: rgba(0,0,0,0.5);
+    height: inherit;
+}
+
+.btn-outline {
+  color: white;
+  border: white 1px solid;
+}
+
+.right {
+  float: right;
+  height: inherit;
+}
+
+.javascript{
+    font-size: small;
+    font-weight: 700;
+    padding: 1px 8px;
+    color: black;
+    border-radius: 5px;
+    background-color: yellow;
+    text-decoration: none;
+}
+
+.react{
+    font-size: small;
+    font-weight: 700;
+    padding: 1px 8px;
+    color: white;
+    border-radius: 5px;
+    background-color:rgb(1, 204, 235);
+    text-decoration: none;
+}
+.startup{
+    font-size: small;
+    font-weight: 700;
+    padding: 1px 8px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    background-color:rgba(255, 0, 0, 0.9);
+    text-decoration: none;
+}
+
+.bussines{
+    font-size: small;
+    padding: 1px 8px;
+    color: white;
+    font-weight: 400;
+    border-radius: 5px;
+    background-color:rgba(0, 0, 0, 0.4);
+    text-decoration: none;
+}
