@@ -36,42 +36,34 @@
   height: inherit;
 }
 
-.javascript{
+.skill{
     font-size: small;
     font-weight: 700;
     padding: 1px 8px;
-    color: black;
+    color: white;
     border-radius: 5px;
-    background-color: yellow;
     text-decoration: none;
+}
+.skill:hover{
+    color:black;
+    cursor: none;
+}
+
+.javascript{
+    background-color: yellow;
+    color:black;
+}
+.javascript:hover{
+    color:white;
 }
 
 .react{
-    font-size: small;
-    font-weight: 700;
-    padding: 1px 8px;
-    color: white;
-    border-radius: 5px;
     background-color:rgb(1, 204, 235);
-    text-decoration: none;
 }
 .startup{
-    font-size: small;
-    font-weight: 700;
-    padding: 1px 8px;
-    color: white;
-    font-weight: 700;
-    border-radius: 5px;
     background-color:rgba(255, 0, 0, 0.9);
-    text-decoration: none;
 }
 
 .bussines{
-    font-size: small;
-    padding: 1px 8px;
-    color: white;
-    font-weight: 400;
-    border-radius: 5px;
     background-color:rgba(0, 0, 0, 0.4);
-    text-decoration: none;
 }
