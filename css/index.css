@@ -8,7 +8,7 @@
   font-size: 18px;
   color: #fff;
 }
-.verde {
+.nav-link-green {
   color:rgb(41,167,68);
 }
 .bg-img {
@@ -28,12 +28,7 @@
 .overlay {
   background-color: rgba(0, 0, 0, 0.5);
 }
-.btn-footer{
-  color: white;
-  width: 150px;
-  height: 80px;
-  word-wrap: break-word;
-}
+
 
 .btn-outline {
   color: white;
@@ -97,10 +92,15 @@
   background-color: rgb(150, 201, 62);
 }
 .footer{
-  display: flex;
-  color: aliceblue;
   margin-top: 1vh;
   align-items: center;
   padding: 2Vh 15vh;
   background-color: rgba(30,81,112,255);
+}
+
+.btn-footer{
+  color: white;
+  width: 150px;
+  height: 80px;
+  word-wrap: break-word;
 }
