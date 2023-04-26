@@ -23,8 +23,13 @@
 }
 
 .margin-padding {
-  padding: 140px 80px;
+  padding: 200px 160px;
 }
+
+.text-size{
+  font-size: 18px;
+}
+
 .overlay {
   background-color: rgba(0, 0, 0, 0.5);
 }
@@ -99,8 +104,9 @@
 }
 
 .btn-footer{
+  font-size: 16px;
   color: white;
-  width: 150px;
+  width: 140px;
   height: 80px;
   word-wrap: break-word;
 }
