@@ -1,34 +1,46 @@
-
-* {
+* , html{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.nav-item {
-  font-size: 14px;
+.nav-link{
+  font-size: 18px;
+  color: #fff;
 }
 .verde {
-  color: green;
+  color:rgb(41,167,68);
 }
 .bg-img {
-  background-image: url("../assets/img/ba1.jpg");
+  background-image: url("../assets/img/hawaii.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   color: #fff;
-  padding: 120px 40px;
+  margin: 0;
+  padding: 0;
   text-align: right;
-  opacity: 0.9;
 }
-.rgba{
-    background-color: rgba(0,0,0,0.5);
-    height: inherit;
+
+.margin-padding {
+  padding: 140px 80px;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.btn-footer{
+  color: white;
+  width: 150px;
+  height: 80px;
+  word-wrap: break-word;
 }
 
 .btn-outline {
   color: white;
   border: white 1px solid;
+}
+.btn-tickets{
+  background-color: rgb(41,167,68);
 }
 
 .right {
@@ -36,34 +48,59 @@
   height: inherit;
 }
 
-.skill{
-    font-size: small;
-    font-weight: 700;
-    padding: 1px 8px;
-    color: white;
-    border-radius: 5px;
-    text-decoration: none;
+.skill {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 1px 8px;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
 }
-.skill:hover{
-    color:black;
-    cursor: none;
-}
-
-.javascript{
-    background-color: yellow;
-    color:black;
-}
-.javascript:hover{
-    color:white;
+.skill:hover {
+  color: black;
+  cursor: none;
 }
 
-.react{
-    background-color:rgb(1, 204, 235);
+.javascript {
+  background-color: yellow;
+  color: black;
 }
-.startup{
-    background-color:rgba(255, 0, 0, 0.9);
+.javascript:hover {
+  color: white;
 }
 
-.bussines{
-    background-color:rgba(0, 0, 0, 0.4);
+.react {
+  background-color: rgb(1, 204, 235);
+}
+.startup {
+  background-color: rgba(255, 0, 0, 0.9);
+}
+
+.bussines {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.text-small {
+  font-size: 14px;
+}
+
+.card-cont {
+  padding: 0 10%;
+}
+
+.dotted-underline {
+  text-decoration: underline dotted;
+}
+
+.btn-success{
+  height: 50px;
+  background-color: rgb(150, 201, 62);
+}
+.footer{
+  display: flex;
+  color: aliceblue;
+  margin-top: 1vh;
+  align-items: center;
+  padding: 2Vh 15vh;
+  background-color: rgba(30,81,112,255);
 }
