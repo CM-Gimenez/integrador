@@ -40,7 +40,7 @@
 .overlay {
   margin:0 4px;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 
@@ -49,6 +49,7 @@
   border: white 1px solid;
 }
 .btn-tickets{
+  color: white;
   background-color: rgb(41,167,68);
 }
 
