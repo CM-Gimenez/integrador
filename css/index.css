@@ -14,6 +14,7 @@
 .bg-img {
   background-image: url("../assets/img/hawaii.jpg");
   background-size: cover;
+  height: 90vh;
   background-position: center center;
   background-repeat: no-repeat;
   color: #fff;
@@ -22,8 +23,14 @@
   text-align: right;
 }
 
-.margin-padding {
-  padding: 200px 160px;
+.flex{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  align-items: end;
+  text-align: end;
+  justify-content: center;
 }
 
 .text-size{
@@ -31,6 +38,8 @@
 }
 
 .overlay {
+  margin:0 4px;
+  height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
