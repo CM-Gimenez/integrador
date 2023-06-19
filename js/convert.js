@@ -37,6 +37,7 @@ data.forEach((jobs) => {
     div.style.border = "1px red solid";
   }
 });
+//apuntadores a input y select del formulario
 const createModal = document.getElementById("btnTotal");
 let firstname = document.getElementById("firstName");
 let lastname = document.getElementById("lastName");
